@@ -18,7 +18,7 @@
                 </DataTemplate>
             </CarouselView.ItemTemplate>
         </CarouselView>
-      <!--  <IndicatorsView IndicatorsView.ItemsSourceBy="carousel" Grid.Row="2" HeightRequest="20" HorizontalOptions="Center" VerticalOptions="Center" />-->
+      <IndicatorsView IndicatorsView.ItemsSourceBy="carousel" Grid.Row="2" HeightRequest="20" HorizontalOptions="Center" VerticalOptions="Center" />
         <Frame Margin="15" x:Name="layoutNormal" Grid.Row="3" HeightRequest="150" OutlineColor="#00000088" Padding="5">
             <Grid>
                 <CarouselView x:Name="carouselNormal" ItemsSource="{Binding Items}" Position="{Binding Position}">
